@@ -1,3 +1,88 @@
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+#logo-img {
+height: 150px;
+width: 300px;
+background: url('3.jpg') no-repeat;
+ background-size: cover;
+  margin-right: 90px; /* Add space between logo and quote */
+}
+#nav-list {
+ margin-top: 50px;
+font-weight: bold; 
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: green;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.container {
+  box-shadow: 0 0 0px #3F0C1F;
+  border: 2px solid #3F0C1F;
+width: 100%;
+}
+.container1 {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+#quote {
+font-weight: bold; 
+    font-size: 16px;
+    color: black; 
+    line-height: 1.5;
+}
+#one {
+background-color:#003366;
+height :500px;
+  border: 2px solid #3F0C1F;
+ display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+
+}
+#two {
+background-color:red;
+height :500px;
+border: 2px solid #3F0C1F; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+#three {
+background-color:#FFD700;
+height :500px;
+  border: 2px solid #3F0C1F;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  text-align: center;
+}
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.no-gutters > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
 h1 {
     text-align: center; 
     margin-bottom: 30px;
@@ -24,48 +109,9 @@ margin-left: auto;
     gap: 10px;
 justify-content: space-between; 
 }
-.title_region1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 5px;
-    font-size: 14px;
-background-color:pink ;
-     border: 1px solid black;
 
- width: 60px;  
-    height: 25px;
-  box-sizing: border-box; 
-}
-.title_region2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 5px;
-    font-size: 14px;
-background-color:red ;
-     border: 1px solid black;
-color:white;
-  width: 60px;  
-    height: 25px;
-  box-sizing: border-box; 
-}
-
- .title_region3 {
-  width: 60px;
-    height: 25px;
-  box-sizing: border-box; 
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 5px;
-    font-size: 14px;
-background-color:yellow ;
-     border: 1px solid black;
-
-
-}
 @media (min-width: 992px) {
+ 
      .col-lg-4, .col-lg-6, .col-lg-12 {
        
         border: 1px solid green;
@@ -96,7 +142,9 @@ background-color:yellow ;
         align-items: center;
        
     }
- 
+ #quote {
+        display: block; /* Show on medium screens */
+    }
 
     .col-md-6 {
           width: calc(50% - 20px);
