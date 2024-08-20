@@ -15,9 +15,7 @@
     padding-left: 50px; /* Adjust to provide space for the toggle button */
 }
 
-#navbarToggle {
-    margin-left: 0;
-}
+
 #logo-img {
 height: 100px;
 width: 200px;
@@ -63,7 +61,6 @@ height :500px;
   justify-content: center; 
   align-items: center;
   text-align: center;
-    font-weight: bold; 
 
 }
 #two {
@@ -74,7 +71,6 @@ border: 2px solid #3F0C1F;
   justify-content: center; 
   align-items: center; 
   text-align: center;
-    font-weight: bold; 
 }
 #three {
 background-color:#FFD700;
@@ -84,7 +80,6 @@ height :500px;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   text-align: center;
-    font-weight: bold; 
 }
 .row.no-gutters {
     margin-right: 0;
@@ -159,8 +154,11 @@ justify-content: space-between;
         justify-content: center;
         align-items: center;
        
-    
     }
+ #quote {
+        display: block; /* Show on medium screens */
+    }
+
     .col-md-6 {
           width: calc(50% - 20px);
         display: flex;
@@ -201,6 +199,12 @@ justify-content: space-between;
         width: 50%;
     }
 
+
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
 
 
     .col-sm-12 {
