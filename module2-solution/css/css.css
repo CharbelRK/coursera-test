@@ -1,8 +1,23 @@
 .navbar-header {
+    position: relative;
     display: flex;
     align-items: center;
 }
 
+#navbarToggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px; /* Adjust as needed */
+}
+.navbar-header {
+    position: relative;
+    padding-left: 50px; /* Adjust to provide space for the toggle button */
+}
+
+#navbarToggle {
+    margin-left: 0;
+}
 #logo-img {
 height: 150px;
 width: 300px;
