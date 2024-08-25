@@ -1,3 +1,10 @@
+.animation-container {
+            width: 100%; /* Adjust width as needed */
+            height: 200px; /* Adjust height as needed */
+            background: white;
+            border: none;
+            position: relative;
+        }
 .navbar-header {
     position: relative;
     display: flex;
